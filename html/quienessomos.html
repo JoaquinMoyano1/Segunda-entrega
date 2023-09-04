@@ -1,56 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>GIVREE</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../css/estilo.css">
 
 </head>
+
 <body>
 
-    <div class="contLogo">
-        <img class="mainLogo" src="img/logo-givree2.png" alt="logo-givree">
+    <!-- inicio navbar -->
 
-   <!-- inicio navbar -->
+    <header class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img class="tamLogo" src="../img/LOGO-BANNER.png" alt="logo-Givree" class="">
+            </a>
 
-   <header class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html">
-        <img src="../img/LOGO-BANNER.png" alt="logo-Givree">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <nav class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../html/eventos.html"> Eventos </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../html/productos-y-servicios.html"> productos y servicios </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../html/quienessomos.html"> ¿quienes somos? </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../html/contacto.html"> contacto </a>
-          </li>
-        </ul>
-      </nav>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fuentesNav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../html/eventos.html"> Eventos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/productos-y-servicios.html"> productos y servicios </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/quienessomos.html"> ¿quienes somos? </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/contacto.html"> contacto </a>
+                    </li>
+                </ul>
+            </nav>
 
+        </div>
+    </header>
+    <!-- fin navbar -->
+
+    <main class="quienesSomos">
+
+        <h2 class="titulo"> Un poco sobre mi </h2>
+        
+        <h2 class="subTituloA"> ¿Que es Givree Lorelein? </h2>
+        <p class="contA">Lorem ipsum dolor si
+            t amet consectetur adipisicing el
+            it. Iure iusto ullam fuga nesciunt culpa laudantium nam fugiat autem vero. 
+            Eius molestias repudiandae ratione f
+            ugiat explicabo quia totam illum delectus, error ea magnam dolores quidem est! 
+            Saepe omnis vel ad, velit accusamus possimus magnam explicabo
+             deserunt commodi 
+            rerum officia sint consectetur consequuntur voluptatem quis et dolor! 
+            Vero, assumenda debitis eveniet asperiores nobis, 
+            recusandae sequi molestias eius nemo blanditiis at dolorem hic aliquam veritatis exercitationem. 
+            Magni exercitationem reprehenderit inventore. Error voluptatibus sit
+             obcaecati, et quis possimus eum sapiente, cumque dicta labore iure numquam quod dolor accusantium, assumenda ipsa ad velit. Tenetur, saepe.
+        </p>
+        <img class="imgQuienes" src="../img/quienes-somos.jpg" alt="GivreeLorelein">
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <div class="container-fluid footFont">
+        <footer class="py-1 my-5">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary"> Inicio </a></li>
+                <li class="nav-item"><a href="../html/eventos.html" class="nav-link px-2 text-body-secondary"> Eventos
+                    </a></li>
+                <li class="nav-item"><a href="../html/productos-y-servicios.html" class="nav-link px-2 text-body-secondary">Productos y Servicios</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">
+                        ¿Quienes somos? </a></li>
+                <li class="nav-item"><a href="../html/contacto.html" class="nav-link px-2 text-body-secondary"> Contacto
+                    </a></li>
+
+            </ul>
+            <p class="text-center text-body-secondary">&copy; GIVRE LORELEI'N </p>
+        </footer>
     </div>
-</header>
 
-<!-- fin navbar -->
 
-    <h1> quienes somos </h1>
-<!-- bs final -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- bs final -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
